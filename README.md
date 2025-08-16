@@ -79,3 +79,25 @@ Enter current salary: 60000
 Eligible
 Employee: Ninad
 Final Salary: 72000
+
+### **5. Changing an Element in an Array**
+### **Theory**
+
+This program demonstrates how to modify an element in an array using pointers. By passing the address of a specific array element to a function, we can change its value directly in memory. This is an example of using call by reference through pointers.
+
+### **Algorithm**
+1.Initialize an array with 5 elements.
+2.Display the original array.
+3.Input the index of the element to be changed.
+4.Input the new value.
+5.Call the function change() and pass:
+6.The address of the selected array element.
+7.The new value.
+8.Inside the function, use the pointer to update the value at the given memory address.
+9.Display the modified array.
+
+### **Output**
+Original: 10 20 30 40 50
+Index: 3
+New value: 23
+Modified: 10 20 30 23 50
